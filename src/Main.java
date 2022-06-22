@@ -1,5 +1,23 @@
 public class Main {
+
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Auto miAuto = new Auto();
+        miAuto.AumentarPuertas();
+        System.out.println(miAuto.puertas);
     }
+
+
+
+
+
+}
+
+class Auto{
+    public int puertas = 0;
+
+    public void AumentarPuertas(){
+        this.puertas++;
+    }
+
 }
